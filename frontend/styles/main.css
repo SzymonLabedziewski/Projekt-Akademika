@@ -1,0 +1,362 @@
+/* index.html   |   dashboard.html */
+/* Styl ogólny dla ciała strony */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 60px 0;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column; /* Ustaw układ w kolumnie */
+    justify-content: flex-start;
+    align-items: center;
+}
+
+body.hidden {
+    visibility: hidden;
+}
+
+body.index {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column; /* Ustaw układ w kolumnie */
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Pełna wysokość ekranu */
+}
+
+.login-container {
+    width: 360px; /* Szerokość kontenera logowania */
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Pasek nawigacyjny dla dashboard */
+.dashboard-navbar {
+    width: 100%;
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    justify-content: space-between;
+}
+
+/* Menu w dashboard */
+.dashboard-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.dashboard-menu li {
+    display: inline;
+}
+
+.dashboard-menu li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.dashboard-menu li a:hover {
+    color: #007bff;
+}
+
+/* Przycisk wylogowania */
+.dashboard-logout {
+    margin-left: auto;
+    margin-right: 30px;
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.dashboard-logout:hover {
+    background-color: #e74e2c;
+}
+
+/* Kontener dashboard */
+.dashboard-container {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px; /* Ograniczenie szerokości kontenera */
+    padding: 30px;
+    text-align: center;
+}
+
+/* Nagłówek w kontenerze dashboard */
+.dashboard-container h1 {
+    font-size: 28px;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+/* Paragraf w kontenerze dashboard */
+.dashboard-container p {
+    font-size: 16px;
+    color: #666666;
+    line-height: 1.5;
+}
+
+/* Styl kontenera dla większej przestronności */
+.dashboard-container p, .dashboard-container h1 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Dodanie responsywności dla mniejszych ekranów */
+@media (max-width: 768px) {
+    .dashboard-container {
+        padding: 20px;
+    }
+
+    .dashboard-container h1 {
+        font-size: 24px;
+    }
+
+    .dashboard-container p {
+        font-size: 14px;
+    }
+}
+
+/* Kontener logowania */
+.container {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 360px;
+    padding: 5px 20px 20px;
+    text-align: center;
+
+    max-height: 80vh; /* Maksymalna wysokość kontenera wynosi 80% wysokości okna przeglądarki */
+    overflow-y: auto; /* Przewijanie w pionie, jeśli zawartość przekracza wysokość */
+    overflow-x: hidden; /* Wyłącz przewijanie w poziomie */
+
+    margin-bottom: 30px; /* Odstęp między formularzem a tabelą */
+}
+
+.container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333333;
+}
+
+.container p {
+    font-size: 16px;
+    color: #666666;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.form-group_2 {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group_2 label {
+    display: block;
+    font-size: 14px;
+    /* color: #666666; */
+    margin-bottom: 5px;
+}
+
+.form-group_2 input {
+    margin-bottom: 5px;
+}
+
+.form-group_2 input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+
+/* Styl przycisków */
+.button {
+    display: block;
+    /* width: 100%; */
+    padding: 10px;
+    background: #007bff;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background: #0056b3;
+}
+
+.button_login {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.button_login:hover {
+    background: #0056b3;
+}
+
+/* Styl dla linków */
+.link {
+    display: block;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+
+
+/* student-data.html */
+.navbar {
+    width: 100%;
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between; /* Przyciski na przeciwległych krańcach */
+    align-items: center;
+    position: fixed; /* Pasek zawsze widoczny u góry */
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar .button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none; /* Usuwa podkreślenie dla linków */
+    display: inline-block; /* Upewnia się, że przyciski zachowują kształt */
+}
+
+.navbar .button:hover {
+    background-color: #0056b3;
+}
+
+.return-button {
+    margin-right: auto; /* Umieść przycisk "Wróć do panelu" po lewej */
+}
+
+.logout-button {
+    margin-left: auto; /* Umieść przycisk "Wyloguj się" po prawej */
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+
+#delete-button {
+    margin-left: auto;
+    background-color: #dc3545; /* Kolor czerwony */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#delete-button:hover {
+    background-color: #a71d2a; /* Ciemniejszy czerwony */
+}
+
+
+
+
+.container-table th, .container-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.container-table th {
+    background-color: #007bff;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.assign-room-btn {
+    background-color: #28a745; /* Zielony kolor przycisku */
+    color: white; /* Biały kolor tekstu */
+    border: none;
+    padding: 5px 7px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+}
+
+.assign-room-btn:hover {
+    background-color: #218838; /* Ciemniejszy zielony przy najechaniu */
+}
