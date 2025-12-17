@@ -1,2 +1,2 @@
 # Projekt-Akademika
-Celem projektu jest stworzenie kompleksowego systemu do zarządzania akademikiem, który umożliwi  sprawną administrację studentów, rezerwacjami pokoi oraz płatnościami. System ma na celu  usprawnienie i zautomatyzowanie procesów związanych z zarządzaniem miejscami w akademiku,  obsługą opłat oraz monitorowaniem obecnych mieszkańców.
+Aplikacja działa wyłącznie w środowisku uczelnianym AGH. Baza danych PostgreSQL znajduje się na serwerze pascal.fis.agh.edu.pl i nie jest dostępna publicznie. Uruchomienie projektu wymaga aktywnego konta uczelnianego oraz połączenia z siecią AGH (bezpośrednio lub poprzez tunel SSH). Backend aplikacji (Node.js) łączy się z bazą danych przez tunelowanie portów, a interfejs użytkownika działa lokalnie w przeglądarce.
