@@ -1,0 +1,1446 @@
+nohup: ignoring input
+Baza danych znajduje się w: /home/stud2022/2labedziewski/public_html/projekt/backend/database.db
+Serwer działa na porcie 6006
+Połączono z bazą danych SQLite.
+Użytkownik zarejestrowany z ID: 8
+Użytkownik 2Labedziewski zalogowany.
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Windows"',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"',
+  'sec-ch-ua-mobile': '?0',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,de-DE;q=0.6,de;q=0.5',
+  cookie: 'PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4',
+  'if-none-match': 'W/"10-rgMShkF2mBjvd0x0nehNMkbYP/U"'
+}
+Ciasteczka z żądania: PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T11:27:31.301Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  }
+}
+Brak aktywnej sesji.
+Sesja po zalogowaniu: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T11:27:33.288Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  },
+  userId: 59,
+  role: 'student'
+}
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Windows"',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"',
+  'sec-ch-ua-mobile': '?0',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/dashboard.html',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,de-DE;q=0.6,de;q=0.5',
+  cookie: 'PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3AnafUgVHHweVsOvtN-Av7WXoK0xuo73WB.HQQ2lAk2k4Gv6%2BNghQqAo%2BNhrFY6Dlx3bPykvYIZeaI',
+  'if-none-match': 'W/"10-rgMShkF2mBjvd0x0nehNMkbYP/U"'
+}
+Ciasteczka z żądania: PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3AnafUgVHHweVsOvtN-Av7WXoK0xuo73WB.HQQ2lAk2k4Gv6%2BNghQqAo%2BNhrFY6Dlx3bPykvYIZeaI
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T11:27:33.435Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  },
+  userId: 59,
+  role: 'student'
+}
+Użytkownik jest zalogowany: 59
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Windows"',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"',
+  'sec-ch-ua-mobile': '?0',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/reservations.html',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,de-DE;q=0.6,de;q=0.5',
+  cookie: 'PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3AnafUgVHHweVsOvtN-Av7WXoK0xuo73WB.HQQ2lAk2k4Gv6%2BNghQqAo%2BNhrFY6Dlx3bPykvYIZeaI',
+  'if-none-match': 'W/"12-HdlwN3LTaZ1AqlKbOwfNRkM0RQs"'
+}
+Ciasteczka z żądania: PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3AnafUgVHHweVsOvtN-Av7WXoK0xuo73WB.HQQ2lAk2k4Gv6%2BNghQqAo%2BNhrFY6Dlx3bPykvYIZeaI
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T11:27:33.633Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  },
+  userId: 59,
+  role: 'student'
+}
+Użytkownik jest zalogowany: 59
+Sesja użytkownika: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T11:27:34.927Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  },
+  userId: 59,
+  role: 'student'
+}
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Windows"',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"',
+  'sec-ch-ua-mobile': '?0',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/dashboard.html',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,de-DE;q=0.6,de;q=0.5',
+  cookie: 'PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3AnafUgVHHweVsOvtN-Av7WXoK0xuo73WB.HQQ2lAk2k4Gv6%2BNghQqAo%2BNhrFY6Dlx3bPykvYIZeaI',
+  'if-none-match': 'W/"12-HdlwN3LTaZ1AqlKbOwfNRkM0RQs"'
+}
+Ciasteczka z żądania: PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3AnafUgVHHweVsOvtN-Av7WXoK0xuo73WB.HQQ2lAk2k4Gv6%2BNghQqAo%2BNhrFY6Dlx3bPykvYIZeaI
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T11:27:35.094Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  },
+  userId: 59,
+  role: 'student'
+}
+Użytkownik jest zalogowany: 59
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Windows"',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"',
+  'sec-ch-ua-mobile': '?0',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/student-payment.html',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,de-DE;q=0.6,de;q=0.5',
+  cookie: 'PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3AnafUgVHHweVsOvtN-Av7WXoK0xuo73WB.HQQ2lAk2k4Gv6%2BNghQqAo%2BNhrFY6Dlx3bPykvYIZeaI',
+  'if-none-match': 'W/"12-HdlwN3LTaZ1AqlKbOwfNRkM0RQs"'
+}
+Ciasteczka z żądania: PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3AnafUgVHHweVsOvtN-Av7WXoK0xuo73WB.HQQ2lAk2k4Gv6%2BNghQqAo%2BNhrFY6Dlx3bPykvYIZeaI
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T11:27:38.999Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  },
+  userId: 59,
+  role: 'student'
+}
+Użytkownik jest zalogowany: 59
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Windows"',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"',
+  'sec-ch-ua-mobile': '?0',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/dashboard.html',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,de-DE;q=0.6,de;q=0.5',
+  cookie: 'PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3AnafUgVHHweVsOvtN-Av7WXoK0xuo73WB.HQQ2lAk2k4Gv6%2BNghQqAo%2BNhrFY6Dlx3bPykvYIZeaI',
+  'if-none-match': 'W/"12-HdlwN3LTaZ1AqlKbOwfNRkM0RQs"'
+}
+Ciasteczka z żądania: PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3AnafUgVHHweVsOvtN-Av7WXoK0xuo73WB.HQQ2lAk2k4Gv6%2BNghQqAo%2BNhrFY6Dlx3bPykvYIZeaI
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T11:27:40.288Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  },
+  userId: 59,
+  role: 'student'
+}
+Użytkownik jest zalogowany: 59
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Windows"',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"',
+  'sec-ch-ua-mobile': '?0',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/student-data.html',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,de-DE;q=0.6,de;q=0.5',
+  cookie: 'PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3AnafUgVHHweVsOvtN-Av7WXoK0xuo73WB.HQQ2lAk2k4Gv6%2BNghQqAo%2BNhrFY6Dlx3bPykvYIZeaI',
+  'if-none-match': 'W/"12-HdlwN3LTaZ1AqlKbOwfNRkM0RQs"'
+}
+Ciasteczka z żądania: PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3AnafUgVHHweVsOvtN-Av7WXoK0xuo73WB.HQQ2lAk2k4Gv6%2BNghQqAo%2BNhrFY6Dlx3bPykvYIZeaI
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T11:27:42.260Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  },
+  userId: 59,
+  role: 'student'
+}
+Użytkownik jest zalogowany: 59
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Windows"',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"',
+  'sec-ch-ua-mobile': '?0',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/dashboard.html',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,de-DE;q=0.6,de;q=0.5',
+  cookie: 'PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3AnafUgVHHweVsOvtN-Av7WXoK0xuo73WB.HQQ2lAk2k4Gv6%2BNghQqAo%2BNhrFY6Dlx3bPykvYIZeaI',
+  'if-none-match': 'W/"12-HdlwN3LTaZ1AqlKbOwfNRkM0RQs"'
+}
+Ciasteczka z żądania: PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3AnafUgVHHweVsOvtN-Av7WXoK0xuo73WB.HQQ2lAk2k4Gv6%2BNghQqAo%2BNhrFY6Dlx3bPykvYIZeaI
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T11:27:43.225Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  },
+  userId: 59,
+  role: 'student'
+}
+Użytkownik jest zalogowany: 59
+Wylogowano użytkownika.
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Windows"',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"',
+  'sec-ch-ua-mobile': '?0',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/index.html',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,de-DE;q=0.6,de;q=0.5',
+  cookie: 'PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3AnafUgVHHweVsOvtN-Av7WXoK0xuo73WB.HQQ2lAk2k4Gv6%2BNghQqAo%2BNhrFY6Dlx3bPykvYIZeaI',
+  'if-none-match': 'W/"12-HdlwN3LTaZ1AqlKbOwfNRkM0RQs"'
+}
+Ciasteczka z żądania: PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3AnafUgVHHweVsOvtN-Av7WXoK0xuo73WB.HQQ2lAk2k4Gv6%2BNghQqAo%2BNhrFY6Dlx3bPykvYIZeaI
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T11:27:53.510Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  }
+}
+Brak aktywnej sesji.
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Windows"',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"',
+  'sec-ch-ua-mobile': '?0',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/admin.html',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,de-DE;q=0.6,de;q=0.5',
+  cookie: 'PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3AnafUgVHHweVsOvtN-Av7WXoK0xuo73WB.HQQ2lAk2k4Gv6%2BNghQqAo%2BNhrFY6Dlx3bPykvYIZeaI',
+  'if-none-match': 'W/"12-HdlwN3LTaZ1AqlKbOwfNRkM0RQs"'
+}
+Ciasteczka z żądania: PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3AnafUgVHHweVsOvtN-Av7WXoK0xuo73WB.HQQ2lAk2k4Gv6%2BNghQqAo%2BNhrFY6Dlx3bPykvYIZeaI
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T11:28:00.765Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  }
+}
+Brak aktywnej sesji.
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Windows"',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"',
+  'sec-ch-ua-mobile': '?0',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/index.html',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,de-DE;q=0.6,de;q=0.5',
+  cookie: 'PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3AnafUgVHHweVsOvtN-Av7WXoK0xuo73WB.HQQ2lAk2k4Gv6%2BNghQqAo%2BNhrFY6Dlx3bPykvYIZeaI',
+  'if-none-match': 'W/"12-HdlwN3LTaZ1AqlKbOwfNRkM0RQs"'
+}
+Ciasteczka z żądania: PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3AnafUgVHHweVsOvtN-Av7WXoK0xuo73WB.HQQ2lAk2k4Gv6%2BNghQqAo%2BNhrFY6Dlx3bPykvYIZeaI
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T11:28:02.843Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  }
+}
+Brak aktywnej sesji.
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Windows"',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Google Chrome";v="132"',
+  'sec-ch-ua-mobile': '?0',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/admin.html',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7',
+  cookie: 'background=lightyellow'
+}
+Ciasteczka z żądania: background=lightyellow
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T11:52:54.260Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  }
+}
+Brak aktywnej sesji.
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Windows"',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Google Chrome";v="132"',
+  'sec-ch-ua-mobile': '?0',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7',
+  cookie: 'background=lightyellow'
+}
+Ciasteczka z żądania: background=lightyellow
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T11:52:58.068Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  }
+}
+Brak aktywnej sesji.
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Windows"',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Google Chrome";v="132"',
+  'sec-ch-ua-mobile': '?0',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/register.html',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7',
+  cookie: 'background=lightyellow'
+}
+Ciasteczka z żądania: background=lightyellow
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T11:53:02.317Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  }
+}
+Brak aktywnej sesji.
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Android"',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36 Edg/132.0.0.0',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"',
+  'sec-ch-ua-mobile': '?1',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,de-DE;q=0.6,de;q=0.5',
+  cookie: 'PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4',
+  'if-none-match': 'W/"12-HdlwN3LTaZ1AqlKbOwfNRkM0RQs"'
+}
+Ciasteczka z żądania: PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T13:16:52.277Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  }
+}
+Brak aktywnej sesji.
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Android"',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36 Edg/132.0.0.0',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"',
+  'sec-ch-ua-mobile': '?1',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/register.html',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,de-DE;q=0.6,de;q=0.5',
+  cookie: 'PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4',
+  'if-none-match': 'W/"12-HdlwN3LTaZ1AqlKbOwfNRkM0RQs"'
+}
+Ciasteczka z żądania: PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T13:16:54.440Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  }
+}
+Brak aktywnej sesji.
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Android"',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36 Edg/132.0.0.0',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"',
+  'sec-ch-ua-mobile': '?1',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/index.html',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,de-DE;q=0.6,de;q=0.5',
+  cookie: 'PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4',
+  'if-none-match': 'W/"12-HdlwN3LTaZ1AqlKbOwfNRkM0RQs"'
+}
+Ciasteczka z żądania: PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T13:16:56.717Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  }
+}
+Brak aktywnej sesji.
+Sesja po zalogowaniu: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T13:16:57.935Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  },
+  userId: 59,
+  role: 'student'
+}
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Android"',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36 Edg/132.0.0.0',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"',
+  'sec-ch-ua-mobile': '?1',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/dashboard.html',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,de-DE;q=0.6,de;q=0.5',
+  cookie: 'PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3AVr_uHgie-gpE_wYHkwTfpW-vUZuleYxf.h%2BMfssqn%2FgxfG%2FBy%2B8NAil%2BvdfJxUPA9chQ%2F%2BOKn%2BD0',
+  'if-none-match': 'W/"12-HdlwN3LTaZ1AqlKbOwfNRkM0RQs"'
+}
+Ciasteczka z żądania: PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3AVr_uHgie-gpE_wYHkwTfpW-vUZuleYxf.h%2BMfssqn%2FgxfG%2FBy%2B8NAil%2BvdfJxUPA9chQ%2F%2BOKn%2BD0
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T13:16:58.043Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  },
+  userId: 59,
+  role: 'student'
+}
+Użytkownik jest zalogowany: 59
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Android"',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36 Edg/132.0.0.0',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"',
+  'sec-ch-ua-mobile': '?1',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/student-data.html',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,de-DE;q=0.6,de;q=0.5',
+  cookie: 'PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3AVr_uHgie-gpE_wYHkwTfpW-vUZuleYxf.h%2BMfssqn%2FgxfG%2FBy%2B8NAil%2BvdfJxUPA9chQ%2F%2BOKn%2BD0',
+  'if-none-match': 'W/"12-HdlwN3LTaZ1AqlKbOwfNRkM0RQs"'
+}
+Ciasteczka z żądania: PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3AVr_uHgie-gpE_wYHkwTfpW-vUZuleYxf.h%2BMfssqn%2FgxfG%2FBy%2B8NAil%2BvdfJxUPA9chQ%2F%2BOKn%2BD0
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T13:16:58.296Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  },
+  userId: 59,
+  role: 'student'
+}
+Użytkownik jest zalogowany: 59
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Android"',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36 Edg/132.0.0.0',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"',
+  'sec-ch-ua-mobile': '?1',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/dashboard.html',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,de-DE;q=0.6,de;q=0.5',
+  cookie: 'PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3AVr_uHgie-gpE_wYHkwTfpW-vUZuleYxf.h%2BMfssqn%2FgxfG%2FBy%2B8NAil%2BvdfJxUPA9chQ%2F%2BOKn%2BD0',
+  'if-none-match': 'W/"12-HdlwN3LTaZ1AqlKbOwfNRkM0RQs"'
+}
+Ciasteczka z żądania: PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3AVr_uHgie-gpE_wYHkwTfpW-vUZuleYxf.h%2BMfssqn%2FgxfG%2FBy%2B8NAil%2BvdfJxUPA9chQ%2F%2BOKn%2BD0
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T13:17:01.937Z,
+    originalMaxAge: 3599999,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  },
+  userId: 59,
+  role: 'student'
+}
+Użytkownik jest zalogowany: 59
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Android"',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36 Edg/132.0.0.0',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"',
+  'sec-ch-ua-mobile': '?1',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/student-payment.html',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,de-DE;q=0.6,de;q=0.5',
+  cookie: 'PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3AVr_uHgie-gpE_wYHkwTfpW-vUZuleYxf.h%2BMfssqn%2FgxfG%2FBy%2B8NAil%2BvdfJxUPA9chQ%2F%2BOKn%2BD0',
+  'if-none-match': 'W/"12-HdlwN3LTaZ1AqlKbOwfNRkM0RQs"'
+}
+Ciasteczka z żądania: PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3AVr_uHgie-gpE_wYHkwTfpW-vUZuleYxf.h%2BMfssqn%2FgxfG%2FBy%2B8NAil%2BvdfJxUPA9chQ%2F%2BOKn%2BD0
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T13:17:03.740Z,
+    originalMaxAge: 3599999,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  },
+  userId: 59,
+  role: 'student'
+}
+Użytkownik jest zalogowany: 59
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Android"',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36 Edg/132.0.0.0',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"',
+  'sec-ch-ua-mobile': '?1',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/dashboard.html',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,de-DE;q=0.6,de;q=0.5',
+  cookie: 'PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3AVr_uHgie-gpE_wYHkwTfpW-vUZuleYxf.h%2BMfssqn%2FgxfG%2FBy%2B8NAil%2BvdfJxUPA9chQ%2F%2BOKn%2BD0',
+  'if-none-match': 'W/"12-HdlwN3LTaZ1AqlKbOwfNRkM0RQs"'
+}
+Ciasteczka z żądania: PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3AVr_uHgie-gpE_wYHkwTfpW-vUZuleYxf.h%2BMfssqn%2FgxfG%2FBy%2B8NAil%2BvdfJxUPA9chQ%2F%2BOKn%2BD0
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T13:17:05.317Z,
+    originalMaxAge: 3599999,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  },
+  userId: 59,
+  role: 'student'
+}
+Użytkownik jest zalogowany: 59
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Android"',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36 Edg/132.0.0.0',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"',
+  'sec-ch-ua-mobile': '?1',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/reservations.html',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,de-DE;q=0.6,de;q=0.5',
+  cookie: 'PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3AVr_uHgie-gpE_wYHkwTfpW-vUZuleYxf.h%2BMfssqn%2FgxfG%2FBy%2B8NAil%2BvdfJxUPA9chQ%2F%2BOKn%2BD0',
+  'if-none-match': 'W/"12-HdlwN3LTaZ1AqlKbOwfNRkM0RQs"'
+}
+Ciasteczka z żądania: PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3AVr_uHgie-gpE_wYHkwTfpW-vUZuleYxf.h%2BMfssqn%2FgxfG%2FBy%2B8NAil%2BvdfJxUPA9chQ%2F%2BOKn%2BD0
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T13:17:10.437Z,
+    originalMaxAge: 3599999,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  },
+  userId: 59,
+  role: 'student'
+}
+Użytkownik jest zalogowany: 59
+Sesja użytkownika: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T13:17:11.445Z,
+    originalMaxAge: 3599999,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  },
+  userId: 59,
+  role: 'student'
+}
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Android"',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36 Edg/132.0.0.0',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"',
+  'sec-ch-ua-mobile': '?1',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/dashboard.html',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,de-DE;q=0.6,de;q=0.5',
+  cookie: 'PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3AVr_uHgie-gpE_wYHkwTfpW-vUZuleYxf.h%2BMfssqn%2FgxfG%2FBy%2B8NAil%2BvdfJxUPA9chQ%2F%2BOKn%2BD0',
+  'if-none-match': 'W/"12-HdlwN3LTaZ1AqlKbOwfNRkM0RQs"'
+}
+Ciasteczka z żądania: PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3AVr_uHgie-gpE_wYHkwTfpW-vUZuleYxf.h%2BMfssqn%2FgxfG%2FBy%2B8NAil%2BvdfJxUPA9chQ%2F%2BOKn%2BD0
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T13:17:11.758Z,
+    originalMaxAge: 3599999,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  },
+  userId: 59,
+  role: 'student'
+}
+Użytkownik jest zalogowany: 59
+Wylogowano użytkownika.
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Android"',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36 Edg/132.0.0.0',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"',
+  'sec-ch-ua-mobile': '?1',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/index.html',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,de-DE;q=0.6,de;q=0.5',
+  cookie: 'PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3AVr_uHgie-gpE_wYHkwTfpW-vUZuleYxf.h%2BMfssqn%2FgxfG%2FBy%2B8NAil%2BvdfJxUPA9chQ%2F%2BOKn%2BD0',
+  'if-none-match': 'W/"12-HdlwN3LTaZ1AqlKbOwfNRkM0RQs"'
+}
+Ciasteczka z żądania: PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3AVr_uHgie-gpE_wYHkwTfpW-vUZuleYxf.h%2BMfssqn%2FgxfG%2FBy%2B8NAil%2BvdfJxUPA9chQ%2F%2BOKn%2BD0
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T13:17:16.240Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  }
+}
+Brak aktywnej sesji.
+Sesja po zalogowaniu: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T13:17:24.000Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  },
+  userId: 34,
+  role: 'admin'
+}
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Android"',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36 Edg/132.0.0.0',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"',
+  'sec-ch-ua-mobile': '?1',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/admin.html',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,de-DE;q=0.6,de;q=0.5',
+  cookie: 'PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3ASoGq6aJzEQY-0k0cxvwIxFEnJYZdED1A.Y%2FxZk1NpqfPHLrD%2FhLEsxqksIwityIRrvek9VIeL%2BH4',
+  'if-none-match': 'W/"12-HdlwN3LTaZ1AqlKbOwfNRkM0RQs"'
+}
+Ciasteczka z żądania: PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3ASoGq6aJzEQY-0k0cxvwIxFEnJYZdED1A.Y%2FxZk1NpqfPHLrD%2FhLEsxqksIwityIRrvek9VIeL%2BH4
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T13:17:24.107Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  },
+  userId: 34,
+  role: 'admin'
+}
+Użytkownik jest zalogowany: 34
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Android"',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36 Edg/132.0.0.0',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"',
+  'sec-ch-ua-mobile': '?1',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/manage-students.html',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,de-DE;q=0.6,de;q=0.5',
+  cookie: 'PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3ASoGq6aJzEQY-0k0cxvwIxFEnJYZdED1A.Y%2FxZk1NpqfPHLrD%2FhLEsxqksIwityIRrvek9VIeL%2BH4',
+  'if-none-match': 'W/"10-rgMShkF2mBjvd0x0nehNMkbYP/U"'
+}
+Ciasteczka z żądania: PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3ASoGq6aJzEQY-0k0cxvwIxFEnJYZdED1A.Y%2FxZk1NpqfPHLrD%2FhLEsxqksIwityIRrvek9VIeL%2BH4
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T13:17:24.395Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  },
+  userId: 34,
+  role: 'admin'
+}
+Użytkownik jest zalogowany: 34
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Android"',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36 Edg/132.0.0.0',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"',
+  'sec-ch-ua-mobile': '?1',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/admin.html',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,de-DE;q=0.6,de;q=0.5',
+  cookie: 'PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3ASoGq6aJzEQY-0k0cxvwIxFEnJYZdED1A.Y%2FxZk1NpqfPHLrD%2FhLEsxqksIwityIRrvek9VIeL%2BH4',
+  'if-none-match': 'W/"10-rgMShkF2mBjvd0x0nehNMkbYP/U"'
+}
+Ciasteczka z żądania: PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3ASoGq6aJzEQY-0k0cxvwIxFEnJYZdED1A.Y%2FxZk1NpqfPHLrD%2FhLEsxqksIwityIRrvek9VIeL%2BH4
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T13:17:28.184Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  },
+  userId: 34,
+  role: 'admin'
+}
+Użytkownik jest zalogowany: 34
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Android"',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36 Edg/132.0.0.0',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"',
+  'sec-ch-ua-mobile': '?1',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/view-payments.html',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,de-DE;q=0.6,de;q=0.5',
+  cookie: 'PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3ASoGq6aJzEQY-0k0cxvwIxFEnJYZdED1A.Y%2FxZk1NpqfPHLrD%2FhLEsxqksIwityIRrvek9VIeL%2BH4',
+  'if-none-match': 'W/"10-rgMShkF2mBjvd0x0nehNMkbYP/U"'
+}
+Ciasteczka z żądania: PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3ASoGq6aJzEQY-0k0cxvwIxFEnJYZdED1A.Y%2FxZk1NpqfPHLrD%2FhLEsxqksIwityIRrvek9VIeL%2BH4
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T13:17:31.154Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  },
+  userId: 34,
+  role: 'admin'
+}
+Użytkownik jest zalogowany: 34
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Android"',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36 Edg/132.0.0.0',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"',
+  'sec-ch-ua-mobile': '?1',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/admin.html',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,de-DE;q=0.6,de;q=0.5',
+  cookie: 'PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3ASoGq6aJzEQY-0k0cxvwIxFEnJYZdED1A.Y%2FxZk1NpqfPHLrD%2FhLEsxqksIwityIRrvek9VIeL%2BH4',
+  'if-none-match': 'W/"10-rgMShkF2mBjvd0x0nehNMkbYP/U"'
+}
+Ciasteczka z żądania: PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3ASoGq6aJzEQY-0k0cxvwIxFEnJYZdED1A.Y%2FxZk1NpqfPHLrD%2FhLEsxqksIwityIRrvek9VIeL%2BH4
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T13:17:32.468Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  },
+  userId: 34,
+  role: 'admin'
+}
+Użytkownik jest zalogowany: 34
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Android"',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36 Edg/132.0.0.0',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"',
+  'sec-ch-ua-mobile': '?1',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/unassigned-students.html',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,de-DE;q=0.6,de;q=0.5',
+  cookie: 'PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3ASoGq6aJzEQY-0k0cxvwIxFEnJYZdED1A.Y%2FxZk1NpqfPHLrD%2FhLEsxqksIwityIRrvek9VIeL%2BH4',
+  'if-none-match': 'W/"10-rgMShkF2mBjvd0x0nehNMkbYP/U"'
+}
+Ciasteczka z żądania: PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3ASoGq6aJzEQY-0k0cxvwIxFEnJYZdED1A.Y%2FxZk1NpqfPHLrD%2FhLEsxqksIwityIRrvek9VIeL%2BH4
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T13:17:34.593Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  },
+  userId: 34,
+  role: 'admin'
+}
+Użytkownik jest zalogowany: 34
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Android"',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36 Edg/132.0.0.0',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"',
+  'sec-ch-ua-mobile': '?1',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/admin.html',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,de-DE;q=0.6,de;q=0.5',
+  cookie: 'PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3ASoGq6aJzEQY-0k0cxvwIxFEnJYZdED1A.Y%2FxZk1NpqfPHLrD%2FhLEsxqksIwityIRrvek9VIeL%2BH4',
+  'if-none-match': 'W/"10-rgMShkF2mBjvd0x0nehNMkbYP/U"'
+}
+Ciasteczka z żądania: PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3ASoGq6aJzEQY-0k0cxvwIxFEnJYZdED1A.Y%2FxZk1NpqfPHLrD%2FhLEsxqksIwityIRrvek9VIeL%2BH4
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T13:17:35.841Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  },
+  userId: 34,
+  role: 'admin'
+}
+Użytkownik jest zalogowany: 34
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Android"',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36 Edg/132.0.0.0',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"',
+  'sec-ch-ua-mobile': '?1',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/view-reports.html',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,de-DE;q=0.6,de;q=0.5',
+  cookie: 'PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3ASoGq6aJzEQY-0k0cxvwIxFEnJYZdED1A.Y%2FxZk1NpqfPHLrD%2FhLEsxqksIwityIRrvek9VIeL%2BH4',
+  'if-none-match': 'W/"10-rgMShkF2mBjvd0x0nehNMkbYP/U"'
+}
+Ciasteczka z żądania: PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3ASoGq6aJzEQY-0k0cxvwIxFEnJYZdED1A.Y%2FxZk1NpqfPHLrD%2FhLEsxqksIwityIRrvek9VIeL%2BH4
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T13:17:38.692Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  },
+  userId: 34,
+  role: 'admin'
+}
+Użytkownik jest zalogowany: 34
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Android"',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36 Edg/132.0.0.0',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"',
+  'sec-ch-ua-mobile': '?1',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/admin.html',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,de-DE;q=0.6,de;q=0.5',
+  cookie: 'PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3ASoGq6aJzEQY-0k0cxvwIxFEnJYZdED1A.Y%2FxZk1NpqfPHLrD%2FhLEsxqksIwityIRrvek9VIeL%2BH4',
+  'if-none-match': 'W/"10-rgMShkF2mBjvd0x0nehNMkbYP/U"'
+}
+Ciasteczka z żądania: PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3ASoGq6aJzEQY-0k0cxvwIxFEnJYZdED1A.Y%2FxZk1NpqfPHLrD%2FhLEsxqksIwityIRrvek9VIeL%2BH4
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T13:17:40.022Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  },
+  userId: 34,
+  role: 'admin'
+}
+Użytkownik jest zalogowany: 34
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Android"',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36 Edg/132.0.0.0',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"',
+  'sec-ch-ua-mobile': '?1',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/view-reports.html',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,de-DE;q=0.6,de;q=0.5',
+  cookie: 'PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3ASoGq6aJzEQY-0k0cxvwIxFEnJYZdED1A.Y%2FxZk1NpqfPHLrD%2FhLEsxqksIwityIRrvek9VIeL%2BH4',
+  'if-none-match': 'W/"10-rgMShkF2mBjvd0x0nehNMkbYP/U"'
+}
+Ciasteczka z żądania: PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3ASoGq6aJzEQY-0k0cxvwIxFEnJYZdED1A.Y%2FxZk1NpqfPHLrD%2FhLEsxqksIwityIRrvek9VIeL%2BH4
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T13:17:42.548Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  },
+  userId: 34,
+  role: 'admin'
+}
+Użytkownik jest zalogowany: 34
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Android"',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36 Edg/132.0.0.0',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"',
+  'sec-ch-ua-mobile': '?1',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/admin.html',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,de-DE;q=0.6,de;q=0.5',
+  cookie: 'PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3ASoGq6aJzEQY-0k0cxvwIxFEnJYZdED1A.Y%2FxZk1NpqfPHLrD%2FhLEsxqksIwityIRrvek9VIeL%2BH4',
+  'if-none-match': 'W/"10-rgMShkF2mBjvd0x0nehNMkbYP/U"'
+}
+Ciasteczka z żądania: PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3ASoGq6aJzEQY-0k0cxvwIxFEnJYZdED1A.Y%2FxZk1NpqfPHLrD%2FhLEsxqksIwityIRrvek9VIeL%2BH4
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T13:17:44.109Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  },
+  userId: 34,
+  role: 'admin'
+}
+Użytkownik jest zalogowany: 34
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Android"',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36 Edg/132.0.0.0',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"',
+  'sec-ch-ua-mobile': '?1',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/view-statistics.html',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,de-DE;q=0.6,de;q=0.5',
+  cookie: 'PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3ASoGq6aJzEQY-0k0cxvwIxFEnJYZdED1A.Y%2FxZk1NpqfPHLrD%2FhLEsxqksIwityIRrvek9VIeL%2BH4',
+  'if-none-match': 'W/"10-rgMShkF2mBjvd0x0nehNMkbYP/U"'
+}
+Ciasteczka z żądania: PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3ASoGq6aJzEQY-0k0cxvwIxFEnJYZdED1A.Y%2FxZk1NpqfPHLrD%2FhLEsxqksIwityIRrvek9VIeL%2BH4
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T13:17:50.629Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  },
+  userId: 34,
+  role: 'admin'
+}
+Użytkownik jest zalogowany: 34
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Android"',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36 Edg/132.0.0.0',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"',
+  'sec-ch-ua-mobile': '?1',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/admin.html',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,de-DE;q=0.6,de;q=0.5',
+  cookie: 'PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3ASoGq6aJzEQY-0k0cxvwIxFEnJYZdED1A.Y%2FxZk1NpqfPHLrD%2FhLEsxqksIwityIRrvek9VIeL%2BH4',
+  'if-none-match': 'W/"10-rgMShkF2mBjvd0x0nehNMkbYP/U"'
+}
+Ciasteczka z żądania: PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3ASoGq6aJzEQY-0k0cxvwIxFEnJYZdED1A.Y%2FxZk1NpqfPHLrD%2FhLEsxqksIwityIRrvek9VIeL%2BH4
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T13:17:53.164Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  },
+  userId: 34,
+  role: 'admin'
+}
+Użytkownik jest zalogowany: 34
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Windows"',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"',
+  'sec-ch-ua-mobile': '?0',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,de-DE;q=0.6,de;q=0.5',
+  cookie: 'PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3ASoGq6aJzEQY-0k0cxvwIxFEnJYZdED1A.Y%2FxZk1NpqfPHLrD%2FhLEsxqksIwityIRrvek9VIeL%2BH4',
+  'if-none-match': 'W/"10-rgMShkF2mBjvd0x0nehNMkbYP/U"'
+}
+Ciasteczka z żądania: PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3ASoGq6aJzEQY-0k0cxvwIxFEnJYZdED1A.Y%2FxZk1NpqfPHLrD%2FhLEsxqksIwityIRrvek9VIeL%2BH4
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T13:24:36.764Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  },
+  userId: 34,
+  role: 'admin'
+}
+Użytkownik jest zalogowany: 34
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Windows"',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"',
+  'sec-ch-ua-mobile': '?0',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/already_logged_in.html',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,de-DE;q=0.6,de;q=0.5',
+  cookie: 'PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3ASoGq6aJzEQY-0k0cxvwIxFEnJYZdED1A.Y%2FxZk1NpqfPHLrD%2FhLEsxqksIwityIRrvek9VIeL%2BH4',
+  'if-none-match': 'W/"10-rgMShkF2mBjvd0x0nehNMkbYP/U"'
+}
+Ciasteczka z żądania: PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3ASoGq6aJzEQY-0k0cxvwIxFEnJYZdED1A.Y%2FxZk1NpqfPHLrD%2FhLEsxqksIwityIRrvek9VIeL%2BH4
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T13:24:38.223Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  },
+  userId: 34,
+  role: 'admin'
+}
+Użytkownik jest zalogowany: 34
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Windows"',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"',
+  'sec-ch-ua-mobile': '?0',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/admin.html',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,de-DE;q=0.6,de;q=0.5',
+  cookie: 'PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3ASoGq6aJzEQY-0k0cxvwIxFEnJYZdED1A.Y%2FxZk1NpqfPHLrD%2FhLEsxqksIwityIRrvek9VIeL%2BH4',
+  'if-none-match': 'W/"10-rgMShkF2mBjvd0x0nehNMkbYP/U"'
+}
+Ciasteczka z żądania: PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3ASoGq6aJzEQY-0k0cxvwIxFEnJYZdED1A.Y%2FxZk1NpqfPHLrD%2FhLEsxqksIwityIRrvek9VIeL%2BH4
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T13:24:38.537Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  },
+  userId: 34,
+  role: 'admin'
+}
+Użytkownik jest zalogowany: 34
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Windows"',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"',
+  'sec-ch-ua-mobile': '?0',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/view-reports.html',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,de-DE;q=0.6,de;q=0.5',
+  cookie: 'PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3ASoGq6aJzEQY-0k0cxvwIxFEnJYZdED1A.Y%2FxZk1NpqfPHLrD%2FhLEsxqksIwityIRrvek9VIeL%2BH4',
+  'if-none-match': 'W/"10-rgMShkF2mBjvd0x0nehNMkbYP/U"'
+}
+Ciasteczka z żądania: PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3ASoGq6aJzEQY-0k0cxvwIxFEnJYZdED1A.Y%2FxZk1NpqfPHLrD%2FhLEsxqksIwityIRrvek9VIeL%2BH4
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T13:24:39.580Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  },
+  userId: 34,
+  role: 'admin'
+}
+Użytkownik jest zalogowany: 34
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Windows"',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"',
+  'sec-ch-ua-mobile': '?0',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/admin.html',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,de-DE;q=0.6,de;q=0.5',
+  cookie: 'PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4',
+  'if-none-match': 'W/"10-rgMShkF2mBjvd0x0nehNMkbYP/U"'
+}
+Ciasteczka z żądania: PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T17:13:45.881Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  }
+}
+Brak aktywnej sesji.
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Windows"',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"',
+  'sec-ch-ua-mobile': '?0',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/index.html',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,de-DE;q=0.6,de;q=0.5',
+  cookie: 'PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4',
+  'if-none-match': 'W/"10-rgMShkF2mBjvd0x0nehNMkbYP/U"'
+}
+Ciasteczka z żądania: PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T17:13:47.432Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  }
+}
+Brak aktywnej sesji.
+Sesja po zalogowaniu: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T17:13:51.343Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  },
+  userId: 34,
+  role: 'admin'
+}
+Nagłówki żądania: {
+  host: 'localhost:6006',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"Windows"',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0',
+  'sec-ch-ua': '"Not A(Brand";v="8", "Chromium";v="132", "Microsoft Edge";v="132"',
+  'sec-ch-ua-mobile': '?0',
+  accept: '*/*',
+  'sec-fetch-site': 'same-origin',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:6006/client/admin.html',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'accept-language': 'pl,en;q=0.9,en-GB;q=0.8,en-US;q=0.7,de-DE;q=0.6,de;q=0.5',
+  cookie: 'PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3AFZGVPRGLquSCD-SQf3SgJqoavb150-kG.Yvf0XVeWpqNzsgHCJqAQnEOgr73al9vXrn09eRW6uzk',
+  'if-none-match': 'W/"10-rgMShkF2mBjvd0x0nehNMkbYP/U"'
+}
+Ciasteczka z żądania: PHPSESSID=e2e7hri1sk0cpbm8dp9qejvdtd; connect.sid=s%3AR82ESblfqPlwZ-7qg9KWkEoOA8WVtXky.Z0gGXVn%2BgVdNYGVfvq34VMXWC3RUwbuv%2B0L%2B4a6tzx4; node_session_id=s%3AFZGVPRGLquSCD-SQf3SgJqoavb150-kG.Yvf0XVeWpqNzsgHCJqAQnEOgr73al9vXrn09eRW6uzk
+Sesja na backendzie: Session {
+  cookie: {
+    path: '/',
+    _expires: 2025-01-23T17:13:51.458Z,
+    originalMaxAge: 3600000,
+    httpOnly: true,
+    secure: false,
+    sameSite: 'lax'
+  },
+  userId: 34,
+  role: 'admin'
+}
+Użytkownik jest zalogowany: 34
