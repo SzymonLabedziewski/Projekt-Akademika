@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akademik - Rejestracja</title>
+    <link href="styles/main.css" rel="stylesheet">
+</head>
+<body class="hidden index">
+    <div class="container">
+        <h1>Zarejestruj się</h1>
+        <form id="register-form" method="POST">
+            <div class="form-group">
+                <label for="username">Nazwa użytkownika:</label>
+                <input type="text" id="username" name="username" placeholder="Wpisz nazwę użytkownika" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Hasło:</label>
+                <input type="password" id="password" name="password" placeholder="Wpisz hasło" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Wpisz email" required>
+            </div>
+            <button type="submit" class="button_login">Zarejestruj się</button>
+        </form>
+        <a href="index.html" class="link">Masz już konto? Zaloguj się</a>
+    </div>
+
+    <script src="scripts/register.js"></script>
+    
+</body>
+</html>

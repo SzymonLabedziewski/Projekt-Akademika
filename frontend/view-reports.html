@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raporty</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <style>
+        /* Styl kontenera tabeli */
+        .container-table {
+            text-align: center;
+            width: 70%; /* Szerokość kontenera tabeli */
+            margin: auto; /* Wyśrodkowanie na stronie */
+            background-color: #ffffff; /* Tło kontenera */
+            border-radius: 8px; /* Zaokrąglone rogi */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Delikatny cień */
+            padding: 0px 40px 40px; /* Wewnętrzne odstępy */
+            overflow-x: auto; /* Dodanie przewijania poziomego */
+        }
+
+        /* Styl tabeli */
+        .container-table table {
+            width: 100%; /* Tabela zajmuje całą szerokość kontenera */
+            border-collapse: collapse; /* Usunięcie odstępów między komórkami */
+            white-space: nowrap; /* Zapobiega łamaniu tekstu w komórkach */
+        }
+
+        /* Nagłówki tabeli */
+        .container-table thead {
+            background-color: #007bff; /* Kolor tła nagłówka */
+            color: white; /* Kolor tekstu nagłówka */
+            text-transform: uppercase; /* Tekst w nagłówkach jako wielkie litery */
+            font-weight: bold; /* Pogrubienie nagłówków */
+        }
+
+        /* Styl komórek w nagłówkach tabeli */
+        .container-table th, .container-table td {
+            padding: 12px 15px; /* Wewnętrzne odstępy */
+            border: 1px solid #ddd; /* Linia między komórkami */
+            text-align: left; /* Wyrównanie tekstu do lewej */
+        }
+
+        /* Kolorowanie wierszy */
+        .container-table tr:nth-child(even) {
+            background-color: #f8f9fa; /* Kolor dla parzystych wierszy */
+        }
+
+        /* Styl pola wyszukiwania (opcjonalnie, jeśli potrzebujesz) */
+        #search-input {
+            width: 60%; /* Szerokość pola wyszukiwania */
+            padding: 10px 20px; /* Wewnętrzne odstępy */
+            border: 2px solid #ccc; /* Obramowanie */
+            border-radius: 25px; /* Zaokrąglenie końców */
+            font-size: 16px; /* Wielkość czcionki */
+            outline: none; /* Usunięcie domyślnego podświetlenia */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Delikatny cień */
+            transition: all 0.3s ease-in-out; /* Animacja */
+        }
+
+
+    </style>
+</head>
+<body class="hidden">
+    <nav class="dashboard-navbar">
+        <ul class="dashboard-menu">
+            <li><a href="admin.html">Powrót do panelu administratora</a></li>
+        </ul>
+        <button id="logout-button" class="dashboard-logout">Wyloguj się</button>
+    </nav>
+    <div class="container-table">
+        <h1>Raport wpłat studentów</h1>
+        <table id="payments-report-table">
+            <thead>
+                <tr>
+                    <th>Nr Albumu</th>
+                    <th>Imię</th>
+                    <th>Nazwisko</th>
+                    <th>Liczba Transakcji</th>
+                    <th>Suma Wpłat (PLN)</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script src="scripts/view-reports.js"></script>
+</body>
+</html>

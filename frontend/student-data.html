@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wprowadź swoje dane</title>
+    <link href="styles/main.css" rel="stylesheet">
+    <style>
+        #kierunki-toggle:hover {
+            background: #e8e8e8;
+        }
+
+        /* Kontener główny: wewnątrz jest toggle i content */
+.dropdown {
+  position: relative;  /* Ten element jest punktem odniesienia dla "dropdown-content" */
+  display: inline-block; /* Ewentualnie inline, block, co wolisz */
+}
+
+/* Wygląd klikalnego przycisku/nagłówka */
+.dropdown-toggle {
+  background-color: #eee;
+  padding: 8px 12px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  user-select: none;
+}
+
+/* Panel rozwijany (checkboxy), pozycjonowany absolutnie */
+.dropdown-content {
+  position: absolute; 
+  top: 100%;   /* tuż pod toggle */
+  left: 0;     /* lub dostosuj do szerokości toggla */
+  background-color: #fff;
+  min-width: 400px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  z-index: 9999;  /* żeby nachodziło na inne elementy */
+}
+
+
+
+    </style>
+</head>
+<body class="hidden">
+    <nav class="dashboard-navbar">
+        <ul class="dashboard-menu">
+            <li><a href="dashboard.html">Powrót do panelu</a></li>
+        </ul>
+        <button id="logout-button" class="dashboard-logout">Wyloguj się</button>
+    </nav>
+    <div class="container">
+        <h1>Twoje dane studenta</h1>
+        <form id="student-form" action="/api/students" method="POST">
+            <div class="form-group">
+                <label for="nr_albumu">Numer albumu:</label>
+                <input type="number" id="nr_albumu" name="nr_albumu" placeholder="Wpisz swój numer albumu" required>
+            </div>
+            <div class="form-group">
+                <label for="imie">Imię:</label>
+                <input type="text" id="imie" name="imie" placeholder="Wpisz swoje imię" required>
+            </div>
+            <div class="form-group">
+                <label for="nazwisko">Nazwisko:</label>
+                <input type="text" id="nazwisko" name="nazwisko" placeholder="Wpisz swoje nazwisko" required>
+            </div>
+            <div class="form-group">
+                <label for="plec">Płeć:</label>
+                <select id="plec" name="plec" required>
+                    <option value="M">Mężczyzna</option>
+                    <option value="K">Kobieta</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="rok_studiow">Rok studiów:</label>
+                <input type="number" id="rok_studiow" name="rok_studiow" placeholder="Wpisz rok studiów" required>
+            </div>
+            <div class="form-group_2">
+                <label for="kierunek_id">Kierunki:</label>
+            
+                <!-- Toggle -> klikalna etykieta -->
+                <div id="kierunki-toggle" class="dropdown-toggle">
+                    Wybierz kierunki ▼
+                </div>
+
+                <!-- Lista kierunków -> hidden domyślnie w CSS (display:none) -->
+                <div id="kierunki-list" style="display: none;">
+                    <!-- loadKierunki() wstawia tutaj checkboxy -->
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="odleglosc_miejsca_zamieszkania">Odległość od miejsca zamieszkania:</label>
+                <input type="number" id="odleglosc_miejsca_zamieszkania" name="odleglosc_miejsca_zamieszkania" placeholder="Wpisz odległość w km" required>
+            </div>
+            <div class="button-group">
+                <button id="submit-button" type="submit" class="button">Zapisz dane</button>
+                <button id="delete-button" type="button" class="button" style="display: none;">Usuń dane</button>
+            </div>            
+            <div id="message" style="margin-top: 10px; display: none;"></div>
+        </form>
+    </div>
+
+    <script src="scripts/student-data.js"></script>
+</body>
+</html>

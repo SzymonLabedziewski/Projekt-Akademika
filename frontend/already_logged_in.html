@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sesja aktywna</title>
+    <link href="styles/main.css" rel="stylesheet">
+</head>
+<body class="index">
+    <div class="container">
+        <h1>Jesteś już zalogowany</h1>
+        <p>Masz już aktywną sesję.</p>
+        <a id="redirect-link" href="#" class="button">Przejdź do panelu użytkownika</a>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', async () => {
+            try {
+                // Pobranie danych sesji użytkownika
+                const response = await fetch('/api/session', {
+                    method: 'GET',
+                    credentials: 'include'
+                });
+
+                if (!response.ok) {
+                    throw new Error('Sesja nieaktywna');
+                }
+
+                const user = await response.json();
+
+                // Sprawdzenie roli użytkownika i ustawienie odpowiedniego przekierowania
+                const redirectLink = document.getElementById('redirect-link');
+                if (user.role === 'admin') {
+                    redirectLink.href = 'admin.html';
+                    redirectLink.innerText = 'Przejdź do panelu administratora';
+                } else {
+                    redirectLink.href = 'dashboard.html';
+                    redirectLink.innerText = 'Przejdź do panelu użytkownika';
+                }
+
+            } catch (error) {
+                console.error('Błąd podczas sprawdzania sesji:', error);
+                window.location.href = 'index.html'; // Przekierowanie do logowania w przypadku braku sesji
+            }
+        });
+    </script>
+</body>
+</html>

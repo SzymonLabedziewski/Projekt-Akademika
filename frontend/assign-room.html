@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Przydziel Pokój</title>
+    <link href="styles/main.css" rel="stylesheet">
+</head>
+<body class="hidden">
+    <nav class="dashboard-navbar">
+        <ul class="dashboard-menu">
+            <li><a href="unassigned-students.html">Powrót</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Przydziel pokój studentowi</h1>
+
+        <!-- Dane studenta -->
+        <div class="student-info">
+            <h2>Dane studenta</h2>
+            <p id="student-info">Ładowanie danych studenta...</p>
+            <p><strong>Płeć:</strong> <span id="student-plec"></span></p>
+        </div>
+
+        <!-- Wybór pokoju -->
+        <div class="room-selection">
+            <h2>Wybierz pokój</h2>
+            <label for="room-select">Dostępne pokoje:</label>
+            <select id="room-select">
+                <option value="">Wybierz pokój</option>
+            </select>
+        </div>
+
+        <!-- Szczegóły wybranego pokoju -->
+        <div id="room-details" class="room-details" style="display: none;">
+            <h2>Szczegóły pokoju</h2>
+            <p><strong>Mieszkanie:</strong> <span id="room-mieszkanie"></span></p>
+            <p><strong>Pokój:</strong> <span id="room-number"></span></p>
+            <p><strong>Liczba wolnych miejsc:</strong> <span id="room-places"></span></p>
+            <p><strong>Łóżka pojedyncze:</strong> <span id="room-lozka-pojedyncze"></span></p>
+            <p><strong>Łóżka piętrowe:</strong> <span id="room-lozka-pietrowe"></span></p>
+
+            <h3>Obecni mieszkańcy:</h3>
+            <ul id="room-residents">
+                <div id="gender-warning" style="display: none; color: red; font-weight: bold; margin-top: 10px;"></div>
+                <li>Brak mieszkańców</li>
+            </ul>
+        </div>
+
+        <!-- Przycisk przypisania pokoju -->
+        <button id="assign-button" class="button" style="display: none;">Przydziel pokój</button>
+    </div>
+
+    <script src="scripts/assign-room.js"></script>
+</body>
+</html>

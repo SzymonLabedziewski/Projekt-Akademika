@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mój pokój</title>
+    <link href="styles/main.css" rel="stylesheet">
+</head>
+<body class="hidden">
+    <nav class="dashboard-navbar">
+        <ul class="dashboard-menu">
+            <li><a href="dashboard.html">Powrót do panelu użytkownika</a></li>
+        </ul>
+        <button id="logout-button" class="dashboard-logout">Wyloguj się</button>
+    </nav>
+
+    <div class="container">
+        <h1>Mój pokój</h1>
+        <div id="reservation-info">
+            <p><strong>Data rozpoczęcia:</strong> <span id="data-od"></span></p>
+            <p><strong>Numer pokoju:</strong> <span id="pokoj-id"></span></p>
+            <p><strong>Numer mieszkania:</strong> <span id="mieszkanie-id"></span></p>
+        </div>
+    </br>
+        <h2>Twoi współlokatorzy</h2>
+        <ul id="roommates-list"></ul>
+        <div id="no-reservation" style="display: none; color: red;">
+            <p>Poczekaj, aż administrator przydzieli cię do pokoju.</p>
+        </div>
+    </div>
+
+    <script src="scripts/reservations.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel Użytkownika</title>
+    <link href="styles/main.css" rel="stylesheet">
+</head>
+<body class="hidden index">
+    <!-- Pasek nawigacyjny -->
+    <nav class="dashboard-navbar">
+        <ul class="dashboard-menu">
+            <li><a href="student-data.html">Moje dane</a></li>
+            <li><a href="student-payment.html">Płatności</a></li>
+            <li><a href="reservations.html">Mój pokój</a></li>
+        </ul>
+        <button id="logout-button" class="dashboard-logout">Wyloguj się</button>
+    </nav>
+
+    <!-- Treść główna -->
+    <div class="dashboard-container">
+        <h1>Witaj w panelu użytkownika!</h1>
+        <p>Wybierz odpowiednią opcję z menu powyżej, aby zarządzać swoimi danymi.</p>
+    </div>
+    
+    <script src="scripts/dashboard.js"></script>
+</body>
+</html>

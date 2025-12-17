@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel Administratora</title>
+    <link href="styles/main.css" rel="stylesheet">
+</head>
+<body class="hidden index">
+    <!-- Pasek nawigacyjny -->
+    <nav class="dashboard-navbar">
+        <ul class="dashboard-menu">
+            <li><a href="view-students.html">Lista studentów</a></li>
+            <li><a href="view-payments.html">Lista opłat</a></li>
+            <li><a href="unassigned-students.html">Oczekujący</a></li>
+            <!-- <li><a href="#">Rezerwacje</a></li> -->
+            <li><a href="view-reports.html">Raporty wpłat</a></li>
+            <li><a href="view-statistics.html">Statystyki płci</a></li>
+            <li><a href="residents.html">Mieszkańcy</a></li> 
+        </ul>
+        <button id="logout-button" class="dashboard-logout">Wyloguj się</button>
+    </nav>
+
+    <!-- Treść główna -->
+    <div class="dashboard-container">
+        <h1>Witaj w panelu administratora!</h1>
+        <p>Wybierz jedną z opcji w menu, aby zarządzać danymi.</p>
+    </div>
+
+    <script src="scripts/admin.js"></script>
+</body>
+</html>

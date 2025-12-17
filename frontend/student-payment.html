@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dokonaj płatności</title>
+    <link href="styles/main.css" rel="stylesheet">
+    <style>
+        /* Styl tabeli – kopiowany z admina */
+        .container-table {
+            text-align: center;
+            width: 70%;
+            margin: auto;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            overflow-x: auto;
+        }
+
+        .container-table table {
+            width: 100%;
+            border-collapse: collapse;
+            white-space: nowrap;
+        }
+
+        .container-table thead {
+            background-color: #007bff;
+            color: white;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .container-table th, .container-table td {
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        .container-table tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+    </style>
+</head>
+<body>
+    <nav class="dashboard-navbar">
+        <ul class="dashboard-menu">
+            <li><a href="dashboard.html">Powrót do panelu</a></li>
+        </ul>
+        <button id="logout-button" class="dashboard-logout">Wyloguj się</button>
+    </nav>
+    <div class="container">
+        <h2>Dokonaj płatności</h2>
+        <form id="payment-form">
+            <div class="form-group">
+                <label for="amount">Kwota do zapłaty:</label>
+                <input type="number" id="amount" name="amount" placeholder="Wpisz kwotę" step="0.01" required>
+            </div>
+            <div class="button-group">
+                <button id="submit-button" type="submit" class="button">Wyślij</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="container-table">
+        <h1>Twoje Płatności</h1>
+        <table id="payments-table">
+            <thead>
+                <tr>
+                    <th>Transakcja nr</th>
+                    <th>Nr albumu</th>
+                    <th>Kwota</th>
+                    <th>Data płatności</th>
+                    <th>Godzina płatności</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script src="scripts/student-payment.js"></script>
+</body>
+</html>

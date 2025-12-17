@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akademik - Logowanie</title>
+    <link href="styles/main.css" rel="stylesheet">
+</head>
+<body class="hidden index">
+    <div class="container login-container">
+        <h1 style="font-size: 30px;">PANEL AKADEMIKA</h1>
+        <h2>Zaloguj się</h2>
+        <form id="login-form">
+            <div class="form-group">
+                <label for="username">Nazwa użytkownika:</label>
+                <input type="text" id="username" name="username" placeholder="Wpisz swoją nazwę użytkownika" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Hasło:</label>
+                <input type="password" id="password" name="password" placeholder="Wpisz swoje hasło" required>
+            </div>
+            <button type="submit" class="button_login">Zaloguj się</button>
+            <div id="error-message" style="color: red; margin-top: 10px; display: none;"></div>
+            <div id="success-message" style="color: green; margin-top: 10px; display: none;"></div>
+        </form>
+        <a href="register.html" class="link">Nie masz konta? Zarejestruj się</a>
+    </div>
+    <script src="scripts/index.js"></script>
+</body>
+</html>

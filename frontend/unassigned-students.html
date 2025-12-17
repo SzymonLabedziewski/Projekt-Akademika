@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studenci bez rezerwacji</title>
+    <link href="styles/main.css" rel="stylesheet">
+</head>
+<body class="hidden">
+    <nav class="dashboard-navbar">
+        <ul class="dashboard-menu">
+            <li><a href="admin.html">Powrót do panelu administratora</a></li>
+        </ul>
+        <button id="logout-button" class="dashboard-logout">Wyloguj się</button>
+    </nav>
+
+    <div class="container-table">
+        <h1>Studenci bez rezerwacji</h1>
+        <table id="students-table">
+            <thead>
+                <tr>
+                    <th>Nr albumu</th>
+                    <th>Imię</th>
+                    <th>Nazwisko</th>
+                    <th>Płeć</th>
+                    <th>Rok studiów</th>
+                    <th>Kierunek</th>
+                    <th>Odległość miejsca zamieszkania (km)</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script src="scripts/unassigned-students.js"></script>
+</body>
+</html>

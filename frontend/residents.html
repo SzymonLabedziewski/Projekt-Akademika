@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mieszkańcy Akademika</title>
+    <link href="styles/main.css" rel="stylesheet">
+    <style>
+        /* Styl kontenera tabeli */
+        .container-table {
+            text-align: center;
+            width: 50%;
+            margin: auto;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            overflow-x: auto;
+        }
+
+        /* Styl tabeli */
+        .container-table table {
+            width: 100%;
+            border-collapse: collapse;
+            white-space: nowrap;
+        }
+
+        /* Nagłówki tabeli */
+        .container-table thead {
+            background-color: #007bff;
+            color: white;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .container-table th, .container-table td {
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        /* Kolorowanie wierszy grupowanych według pokoju */
+        .row-odd {
+            background-color: #e9ecef;
+        }
+
+        .row-even {
+            background-color: #f8f9fa;
+        }
+
+    </style>
+</head>
+<body class="hidden">
+    <nav class="dashboard-navbar">
+        <ul class="dashboard-menu">
+            <li><a href="admin.html">Powrót do panelu administratora</a></li>
+        </ul>
+        <button id="logout-button" class="dashboard-logout">Wyloguj się</button>
+    </nav>
+
+    <div class="container-table">
+        <h1>Mieszkańcy Akademika</h1>
+        <table id="residents-table">
+            <thead>
+                <tr>
+                    <th>Nr albumu</th>
+                    <th>Imię</th>
+                    <th>Nazwisko</th>
+                    <th>Pokój</th>
+                    <th>Data zamieszkania</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script src="scripts/residents.js"></script>
+</body>
+</html>
